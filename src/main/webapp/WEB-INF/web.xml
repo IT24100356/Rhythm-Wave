@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+  <servlet>
+    <servlet-name>ListPendingServlet</servlet-name>
+    <servlet-class>servlets.ListPendingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListPendingServlet</servlet-name>
+    <url-pattern>/pending</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ListApprovedServlet</servlet-name>
+    <servlet-class>servlets.ListApprovedServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListApprovedServlet</servlet-name>
+    <url-pattern>/approved</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ListRejectedServlet</servlet-name>
+    <servlet-class>servlets.ListRejectedServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListRejectedServlet</servlet-name>
+    <url-pattern>/rejected</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ListEmailsServlet</servlet-name>
+    <servlet-class>servlets.ListEmailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListEmailsServlet</servlet-name>
+    <url-pattern>/emails</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DetailServlet</servlet-name>
+    <servlet-class>servlets.DetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DetailServlet</servlet-name>
+    <url-pattern>/detail</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ApproveServlet</servlet-name>
+    <servlet-class>servlets.ApproveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ApproveServlet</servlet-name>
+    <url-pattern>/approve</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RejectServlet</servlet-name>
+    <servlet-class>servlets.RejectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RejectServlet</servlet-name>
+    <url-pattern>/reject</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>servlets.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SetInactiveServlet</servlet-name>
+    <servlet-class>servlets.SetInactiveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SetInactiveServlet</servlet-name>
+    <url-pattern>/setInactive</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SetActiveServlet</servlet-name>
+    <servlet-class>servlets.SetActiveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SetActiveServlet</servlet-name>
+    <url-pattern>/setActive</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>servlets.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>servlets.EditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+
+</web-app>
