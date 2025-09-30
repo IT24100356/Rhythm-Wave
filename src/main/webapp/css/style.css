@@ -1,0 +1,42 @@
+/* css/style.css */
+body {
+    background-color: #121212; /* A very dark grey, not pure black */
+    color: #e0e0e0;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #383838;
+}
+
+.table {
+    --bs-table-bg: #1e1e1e;
+    --bs-table-striped-bg: #2c2c2c;
+    --bs-table-border-color: #383838;
+    --bs-table-color: #e0e0e0;
+    --bs-table-hover-bg: #3a3a3a;
+    --bs-table-hover-color: #ffffff;
+}
+
+.btn-primary {
+    --bs-btn-bg: #6200ea;
+    --bs-btn-border-color: #6200ea;
+    --bs-btn-hover-bg: #7f39fb;
+    --bs-btn-hover-border-color: #7f39fb;
+}
+
+.bi {
+    vertical-align: -0.125em;
+    margin-right: 0.4rem;
+}
+
+.track-details-img {
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.action-buttons .d-inline, .action-buttons .d-grid {
+    margin: 0.25rem;
+}
